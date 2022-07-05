@@ -3,7 +3,7 @@ include(${CMAKE_CURRENT_LIST_DIR}/cmodule.cmake)
 cmodule_add(
   zlib 1.2.12
   URL      "https://zlib.net/zlib-1.2.12.tar.xz"
-  URL_HASH SHA256=91844808532e5ce316b3c010929493c0244f3d37593afd6de04f71821d5136d9
+  URL_HASH SHA256=7db46b8d7726232a621befaab4a1c870f00a90805511c0e0090441dac57def18
 )
 
 if(NOT TARGET ZLIB::ZLIB)
